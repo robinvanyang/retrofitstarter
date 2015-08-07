@@ -14,6 +14,7 @@ public class RestClient {
         if (null == service) {
             service = new RestAdapter.Builder()
                     .setEndpoint(Config.API_HOST)
+                    .setLogLevel(RestAdapter.LogLevel.FULL)
                     .build()
                     .create(LoopBackService.class);
         }

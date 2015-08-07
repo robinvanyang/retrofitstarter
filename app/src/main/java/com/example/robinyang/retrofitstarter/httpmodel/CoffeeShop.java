@@ -3,7 +3,7 @@ package com.example.robinyang.retrofitstarter.httpmodel;
 /**
  * Created by robinyang on 15/8/3.
  */
-public class CoffeeShop {
+public class CoffeeShop extends BaseHttpModel {
     public int id;
     public String name;
     public String brand;
